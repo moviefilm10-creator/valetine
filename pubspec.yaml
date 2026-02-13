@@ -1,0 +1,21 @@
+name: valetine
+version: 1.0.0
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^latest_version
+  firebase_auth: ^latest_version
+  cloud_firestore: ^latest_version
+  audio_players: ^latest_version
+  provider: ^latest_version
+  http: ^latest_version
+
+flutter:
+  uses-material-design: true
+
+# Additional UI libraries can be included here as needed
